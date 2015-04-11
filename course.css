@@ -1,0 +1,167 @@
+article#Web {
+  max-width: 2000px;
+  padding: 3em;
+  background: url(http://subtlepatterns.com/patterns/purty_wood.png);
+  border-radius: 2em;
+}
+
+.syllabus {
+  width: 70%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+
+.button-up {
+  font-family: "微軟正黑體";
+  -webkit-transition: width 2s, height 2s, font-size 2s;
+  transition: width 2s, height 2s, font-size 2s;
+}
+.button-up:hover {
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: "Yu Gothic", SimHei;
+  color: blue;
+  text-shadow: 1px 1px 1px black, 0 0 10px blue, 0 0 1px darkblue;
+}
+
+h2 {
+  font-size: 175%;
+  font-family: "Yu Gothic", SimHei;
+  color: blue;
+  text-shadow: 1px 1px 2px green;
+}
+
+div.explorerdiv {
+  text-align: center;
+  -webkit-transform: rotateY(0deg); /* Safari */
+  transform: rotateY(-360deg); /* Standard syntax */
+}
+
+.explorer {
+  width: 70%;
+  max-width: 500px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: Comic Sans MS, Monaco, Microsoft YaHei, "標楷體", sans-serif;
+  border-bottom: 2px solid;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: Courier New, Microsoft YaHei, Monaco, "標楷體", sans-serif;
+  border-bottom: 2px solid;
+}
+
+.part {
+  font-size: 18px;
+  line-height: 3;
+  font-family: MS PGothic, Meiryo, cursive, "標楷體";
+}
+
+.schedule-list {
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-gap: 30px;
+  -moz-column-gap: 30px;
+  -webkit-column-gap: 30px;
+  column-rule:1px solid #000;
+  -moz-column-rule:1px solid #000;
+  -webkit-column-rule:1px solid #000;
+  
+  list-style-type: none;
+  list-style-type: decimal !ie; /*IE 7- hack*/
+     
+  margin: 0;
+  margin-left: 4em;    
+  padding: 0;
+  counter-reset: li-counter;
+}
+.schedule-list > li{
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 2em;
+  min-height: 1em;
+  
+  font-size: 25px;
+  line-height: 2.5;
+  font-family: 'Schoolbell', "標楷體", cursive;
+}
+.schedule-list > li:before {
+  position: absolute;
+  top: 0;
+  left: -0em;
+  width: 1.5em;
+  height: 1.5em;
+  
+  font-size: 0.8em;
+  line-height: 1.2;
+  text-align: center;
+  color: #f5f5f5;
+ 
+  border: 3px solid #c5c5c5;
+  border-radius: 50%;
+  background-color: #464646;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+
+.schedule-list > li:nth-child(odd){
+  border-radius: 13px;
+  background-color:rgba(255,255,255,0.5);
+}
+.schedule-list > li:nth-child(even){
+  border-radius: 13px;
+  background-color:rgba(255,100,10,0.5);
+}
+
+.grading {
+  width: 75%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.textbook-list {
+  list-style: none;
+  line-height: 2.5;
+  font-family: 'Permanent Marker', cursive, sans-serif;
+}
+
+div.computerdiv {
+  text-align: center;
+}
+
+.computer {
+  width: 70%;
+  max-width: 500px;
+  padding: 0.3em;
+  background-color: #336699;
+  box-sizing: border-box;
+}
+
+.button-down:hover {
+  width: 160px;
+  height: 50px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
